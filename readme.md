@@ -29,6 +29,11 @@
 2. Render (JPG , PNG , GIF)
 3. Vectorial (SVG)
 
+## AUDIO Y VIDEO
+
+1. Video (Formato .mp4)
+2. Audio (Formato .mp3)
+
 <!--
   crear repositorio (html-02)
   crear archivo index.html
@@ -36,4 +41,5 @@
   crear archivo navegacion.html (ejemplo de menu perfecto)
   crear archivo tablas.html (ejemplo de tablas)
   crear archivo imagenes.html (ejemplo de imagenes)
+  crear archivo multimedia.html (ejemplo de video y audio)
 -->
