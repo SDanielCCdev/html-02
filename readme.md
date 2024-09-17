@@ -23,10 +23,17 @@
 
 3. <table></table> && <tr></tr> && <td></td>
 
+## IMAGENES
+ 
+1. Tipos de imagenes (Render - Vectorial)
+2. Render (JPG , PNG , GIF)
+3. Vectorial (SVG)
+
 <!--
   crear repositorio (html-02)
   crear archivo index.html
   crear archivo listas.html (ejemplo de listas)
   crear archivo navegacion.html (ejemplo de menu perfecto)
   crear archivo tablas.html (ejemplo de tablas)
+  crear archivo imagenes.html (ejemplo de imagenes)
 -->
