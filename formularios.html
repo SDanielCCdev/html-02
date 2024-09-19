@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <fieldset>
+            <legend><h1>Registro</h1></legend>
+            <form action="">
+                <div>
+                    <label for="name">Nombres *</label>
+                    <input id="name" type="text" maxlength="10" required autocomplete="off">
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="lastName">Apellidos *</label>
+                    <input id="lastName" type="text" required autocomplete="off">
+                </div>
+
+                <br>
+                
+                <div>
+                    <label for="@">Email *</label>
+                    <input id="@" type="email" placeholder="@.com" required autocomplete="off">
+                </div>
+
+                <br>
+                
+                <div>
+                    <label for="pass">Password *</label>
+                    <input id="pass" type="password" required autocomplete="off">
+                </div>
+                
+                <br>
+                
+                <div>
+                    <label for="age">Edad *</label>
+                    <input id="age" type="number" min="25" max="40" required autocomplete="off">
+                </div>
+                
+                <br>
+                
+                <div>
+                    <label for="cel">Celular *</label>
+                    <input id="cel" type="tel" placeholder="+51" required autocomplete="off">
+                </div>
+                
+                <br>
+                
+                <div>
+                    <label for="cel">Modo de trabajo *</label>
+                    <input id="cel" type="tel" readonly value="Remoto" disabled>
+                </div>
+                
+                <br>
+
+                <div>
+                    <label for="">Selecciona tu pais *</label>
+                    <div>
+                        <label for="p">Peru:<input type="radio" name="p" id=""></label>
+                        <label for="p">Venezuela:<input type="radio" name="p" id=""></label>
+                        <label for="p">Argentina:<input type="radio" name="p" id=""></label>
+                    </div>
+                </div>
+                
+                <br>
+                
+                <div>
+                    <label for="">Selecciona tu profesion *</label>
+                    <select name="" id="">
+                        <option value="0"></option>
+                        <option value="1">Contabilidad</option>
+                        <option value="2">Derecho</option>
+                        <option value="3">Ingeniero de sistemas</option>
+                        <option value="4">Marketing</option>
+                        <option value="5">Administracion de empresas</option>
+                    </select>
+                </div>
+                
+                <br>
+                
+                <div>
+                    <label for="">Que idiomas hablas?</label>
+                    <label for=""><input type="checkbox">Ingles</label>
+                    <label for=""><input type="checkbox">Italiano</label>
+                    <label for=""><input type="checkbox">Portugues</label>
+                    <label for=""><input type="checkbox">Aleman</label>
+                    <label for=""><input type="checkbox">Spanish</label>
+                    <label for=""><input type="checkbox">Chino</label>
+                </div>
+                
+                <br>
+                
+                <div>
+                    <label for="area">Porque debemos contratarte?</label>
+                    <div>
+                        <textarea name="" id="area" cols="30" rows="3"></textarea>
+                    </div>
+                </div>
+                
+                <br>
+                
+                <div>
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>
+        </fieldset>
+</body>
+</html>
